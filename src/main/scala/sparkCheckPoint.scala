@@ -1,11 +1,12 @@
-import org.apache.spark.api.java.StorageLevels
 import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.api.java.StorageLevels
 
-object sparkJoin {
+object sparkCheckPoint {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setMaster("local").setAppName("sparkMap")
-    val sc = new SparkContext(conf)
 
+    val sc = new SparkContext(conf)
+    sc.setCheckpointDir("data/checkpoint")
     /*
     * local 模式下，textfile 读取的是本地文件
     * on Yarn 模式下，textFile 读取的是HDFS上的文件
@@ -38,6 +39,7 @@ object sparkJoin {
     // 设置缓存
     //    joinRdd = joinRdd.cache()
     joinRdd = joinRdd.persist(StorageLevels.MEMORY_ONLY)
+    joinRdd.checkpoint()
     // 求总分
     joinRdd.reduceByKey(_ + _)
       .foreach(println)
