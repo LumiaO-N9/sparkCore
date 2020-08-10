@@ -1,5 +1,7 @@
-import org.apache.spark.{SparkConf, SparkContext}
+package sparkCore
+
 import org.apache.spark.api.java.StorageLevels
+import org.apache.spark.{SparkConf, SparkContext}
 
 object sparkCheckPoint {
   def main(args: Array[String]): Unit = {

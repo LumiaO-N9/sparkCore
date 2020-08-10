@@ -2,59 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8520b4c-7b60-4bda-b749-28014aaaf06b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparkCore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCheckPoint.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkMapValues.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkReduce.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkSort.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WordCount$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WordCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkFilter$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkFilter$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkFilter$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkFilter$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkFlatMap$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkFlatMap$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkFlatMap$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkFlatMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkGroupByKey$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkGroupByKey$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkGroupByKey$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkGroupByKey$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkGroupByKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkJoin$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkJoin$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkJoin$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkJoin$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkJoin$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkJoin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkMap$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkMap$$anonfun$main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkMap$$anonfun$main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkMap$$anonfun$main$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkMap$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkMap$Student$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkMap$Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkSample$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkSample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkUnion$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkUnion$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sparkUnion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkJoin.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkJoin.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkCheckPoint.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkFilter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkFlatMap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkGroupByKey.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkJoin.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkMap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkMapValues.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkReduce.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkSample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkCore/sparkUnion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/WordCount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkCheckPoint.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkCount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkFilter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkFlatMap.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkGroupByKey.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkJoin.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkMap.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkMapValues.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkReduce.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkSample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkSort.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkUnion.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +37,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,35 +92,35 @@
   </component>
   <component name="RunManager" selected="Application.sparkCheckPoint">
     <configuration name="sparkCheckPoint" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkCheckPoint" />
+      <option name="MAIN_CLASS_NAME" value="sparkCore.sparkCheckPoint" />
       <module name="sparkCore" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="sparkCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkCount" />
+      <option name="MAIN_CLASS_NAME" value="sparkCore.sparkCount" />
       <module name="sparkCore" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="sparkJoin" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkJoin" />
+      <option name="MAIN_CLASS_NAME" value="sparkCore.sparkJoin" />
       <module name="sparkCore" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="sparkReduce" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkReduce" />
+      <option name="MAIN_CLASS_NAME" value="sparkCore.sparkReduce" />
       <module name="sparkCore" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="sparkSort" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkSort" />
+      <option name="MAIN_CLASS_NAME" value="sparkCore.sparkSort" />
       <module name="sparkCore" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,7 +159,8 @@
       <option name="presentableId" value="Default" />
       <updated>1596595143533</updated>
       <workItem from="1596595145271" duration="3963000" />
-      <workItem from="1596764025940" duration="10357000" />
+      <workItem from="1596764025940" duration="10988000" />
+      <workItem from="1597022748309" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="添加gitignore">
       <created>1596769626408</created>
@@ -194,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596769652102</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spark 常用算子 8月7日下午">
+      <created>1596785402528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596785402528</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +192,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加gitignore" />
     <MESSAGE value="spark 常用算子 8月7日上午" />
-    <option name="LAST_COMMIT_MESSAGE" value="spark 常用算子 8月7日上午" />
+    <MESSAGE value="spark 常用算子 8月7日下午" />
+    <option name="LAST_COMMIT_MESSAGE" value="spark 常用算子 8月7日下午" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596784072807">
@@ -214,10 +204,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596784317715" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1596769651591">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1596785401843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596769651591" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596785401843" />
     <state x="147" y="70" key="DiffContextDialog" timestamp="1596769566661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,45 +216,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596595417984" />
-    <state width="1493" height="427" key="GridCell.Tab.0.bottom" timestamp="1596784287629">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1596794542472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596784287629" />
-    <state width="1493" height="427" key="GridCell.Tab.0.center" timestamp="1596784287628">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596794542472" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1596794542471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596784287628" />
-    <state width="1493" height="427" key="GridCell.Tab.0.left" timestamp="1596784287628">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596794542471" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1596794542471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596784287628" />
-    <state width="1493" height="427" key="GridCell.Tab.0.right" timestamp="1596784287629">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596794542471" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1596794542471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="427" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596784287629" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596769359312">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596794542471" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596794542472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596769359312" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1596769359312">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596794542472" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1596794542472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596769359312" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1596769359312">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596794542472" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1596794542472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596769359312" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1596769359312">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596794542472" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1596794542472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596769359312" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596794542472" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1596767534376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596767534376" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596769851597">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596785410618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596769851597" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596785410618" />
   </component>
 </project>

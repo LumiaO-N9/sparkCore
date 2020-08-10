@@ -1,3 +1,5 @@
+package sparkCore
+
 import org.apache.spark.api.java.StorageLevels
 import org.apache.spark.{SparkConf, SparkContext}
 
