@@ -33,5 +33,14 @@ object Demo2 {
       .groupBy("id", "name", "age")
       .count()
       .show()
+
+    // sort 转换算子
+    // 默认升序
+    studentDF.sort(studentDF("age")).show()
+    // 降序
+    studentDF.sort(studentDF("age").desc).show()
+
+    // 去重，去重整行数据都重复的数据
+    studentDF.distinct().show()
   }
 }
