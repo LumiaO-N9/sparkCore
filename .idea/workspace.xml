@@ -1,52 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8520b4c-7b60-4bda-b749-28014aaaf06b" name="Default Changelist" comment="按文件夹对代码进行分类">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkSQL/Demo4.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkSQL/Demo5.scala" afterDir="false" />
+    <list default="true" id="a8520b4c-7b60-4bda-b749-28014aaaf06b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkStreaming/sparkStramingDemo2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkStreaming/sparkStreamingDemo1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/sparkStreaming/test1.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/json/students.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/json/students.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkSQL/Demo2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkSQL/Demo2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkFilter$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkFilter$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkFilter$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkFilter$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkFlatMap$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkFlatMap$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkFlatMap$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkFlatMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkGroupByKey$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkGroupByKey$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkGroupByKey$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkGroupByKey$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkGroupByKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkJoin$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkJoin$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkJoin$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkJoin$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkJoin$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkJoin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkMap$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkMap$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkMap$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkMap$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkMap$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkMap$Student$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkMap$Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkSample$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkUnion$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkUnion$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sparkUnion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkSQL/Demo4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkSQL/Demo4.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,46 +70,7 @@
       <recent name="C:\Users\zzk10\IdeaProjects\sparkCore\data\student" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo4">
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkSQL.Demo1" />
-      <module name="sparkCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sparkSQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkSQL.Demo2" />
-      <module name="sparkCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sparkSQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sparkSQL.Demo3" />
-      <module name="sparkCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sparkSQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.sparkStramingDemo2">
     <configuration name="Demo4" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sparkSQL.Demo4" />
       <module name="sparkCore" />
@@ -175,13 +97,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sparkStramingDemo2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkStreaming.sparkStramingDemo2" />
+      <module name="sparkCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkStreaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sparkStreamingDemo1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkStreaming.sparkStreamingDemo1" />
+      <module name="sparkCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkStreaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkStreaming.test1" />
+      <module name="sparkCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkStreaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sparkStramingDemo2" />
+        <item itemvalue="Application.sparkStreamingDemo1" />
+        <item itemvalue="Application.test1" />
         <item itemvalue="Application.Demo4" />
         <item itemvalue="Application.Demo5" />
-        <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.Demo3" />
-        <item itemvalue="Application.Demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +171,7 @@
       <workItem from="1596595145271" duration="3963000" />
       <workItem from="1596764025940" duration="10988000" />
       <workItem from="1597022748309" duration="13380000" />
+      <workItem from="1597111446305" duration="4485000" />
     </task>
     <task id="LOCAL-00001" summary="添加gitignore">
       <created>1596769626408</created>
@@ -246,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597030939107</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="8月10日下午 spark SQL">
+      <created>1597111477708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597111477708</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,13 +227,14 @@
     <MESSAGE value="spark 常用算子 8月7日下午" />
     <MESSAGE value="按文件夹对代码进行分类" />
     <MESSAGE value="Spark SQL 8月10日上午" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spark SQL 8月10日上午" />
+    <MESSAGE value="8月10日下午 spark SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="8月10日下午 spark SQL" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1597044329147">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1597116226762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597044329147" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597116226762" />
     <state x="516" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597040985378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -273,10 +243,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="271" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1597040038537" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1597030979818">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1597111476302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597030979818" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597111476302" />
     <state x="147" y="70" key="DiffContextDialog" timestamp="1596769566661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -285,22 +255,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596595417984" />
-    <state width="1493" height="620" key="GridCell.Tab.0.bottom" timestamp="1597045966658">
+    <state width="1493" height="588" key="GridCell.Tab.0.bottom" timestamp="1597116370668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="620" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597045966658" />
-    <state width="1493" height="620" key="GridCell.Tab.0.center" timestamp="1597045966658">
+    <state width="1493" height="588" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597116370668" />
+    <state width="1493" height="588" key="GridCell.Tab.0.center" timestamp="1597116370667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="620" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597045966658" />
-    <state width="1493" height="620" key="GridCell.Tab.0.left" timestamp="1597045966658">
+    <state width="1493" height="588" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597116370667" />
+    <state width="1493" height="588" key="GridCell.Tab.0.left" timestamp="1597116370667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="620" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597045966658" />
-    <state width="1493" height="620" key="GridCell.Tab.0.right" timestamp="1597045966658">
+    <state width="1493" height="588" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597116370667" />
+    <state width="1493" height="588" key="GridCell.Tab.0.right" timestamp="1597116370668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="620" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597045966658" />
+    <state width="1493" height="588" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597116370668" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596794542472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

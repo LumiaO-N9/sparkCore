@@ -39,7 +39,7 @@ object Demo4 {
 //    sqlContext.sql("select * from students a left join scores b on a.id = b.id")
 //      .show(20)
 
-    hiveContext.refreshTable("students")
+//    hiveContext.refreshTable("students")
     // 求每个学生的总分
     hiveContext.sql(
       """
